@@ -22,3 +22,15 @@ Permissions API
 - `const response = await navigator.permissions.query({ name: "geolocation" })`
 - `const state = response.state`
 - can be 'granted', 'prompt', or 'denied'
+
+Sensors
+
+- there are different sensors on devices
+  - accelerometer (3 axis)
+  - gyroscope
+  - magnetometer
+  - proximity (proximity to the user)
+  - light sensor
+- there are two ways to consume them on the web
+  - old APIs (global DOM APIs). Works on iPhones
+  - Sensor API. Not yet in Safari
