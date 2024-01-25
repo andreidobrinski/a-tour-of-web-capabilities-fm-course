@@ -46,6 +46,8 @@ Available Sensors
 - Magnetometer
 - RelativeOrientationSensor
 
+Acceletometer, Magnetometer and Gyroscope are the most mature APIs for use
+
 Android
 
 - OrientationPhone
