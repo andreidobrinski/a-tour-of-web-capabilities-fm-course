@@ -34,3 +34,19 @@ Sensors
 - there are two ways to consume them on the web
   - old APIs (global DOM APIs). Works on iPhones
   - Sensor API. Not yet in Safari
+
+Available Sensors
+
+- AbsoluteOrientationSensor
+- Accelerometer
+- AmbientLightSensor
+- Gravity Sensor
+- Gyroscope
+- LinearAccelerationSensor
+- Magnetometer
+- RelativeOrientationSensor
+
+Android
+
+- OrientationPhone
+- 360 degree
