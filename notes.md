@@ -52,3 +52,13 @@ Android
 
 - OrientationPhone
 - 360 degree
+
+Geolocation API
+
+- uses Wifi for desktop browser location
+- google knows because of street view cars that have wifi antennas and match location to wifi SSID and GPS. They also know from users reporting new access points
+- same works for phone because it's faster and cheaper than GPS
+- walking around, google maps uses wifi for location tracking
+- geolocation API is provider-agnostic, we don't know how we're getting the information
+- works only in the foreground (native can work in the background)
+  - therefore not suitable for geofencing or beacon-based location
