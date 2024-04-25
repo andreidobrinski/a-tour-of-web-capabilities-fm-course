@@ -114,3 +114,11 @@ Web HID
 - user must grant permission for it to be used
 - low-level API: you have a lot of power and a lot of work
 - connects to non-standard input/output devices. stream deck, pedals, LED lights etc
+
+Speech Recognition API
+
+- works on safari after a user gesture
+- requires permission
+- you get transcribed text with a percentage of confidence
+- does multiple languages. language support depends on the browser and the OS
+- API is prefixed with webkit: `webkitSpeechRecognition()`
