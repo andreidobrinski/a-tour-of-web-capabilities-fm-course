@@ -62,3 +62,7 @@ Geolocation API
 - geolocation API is provider-agnostic, we don't know how we're getting the information
 - works only in the foreground (native can work in the background)
   - therefore not suitable for geofencing or beacon-based location
+- precise vs imprecise location
+  - there is no API to know in which mode the user is
+  - imprecise: you get an accuracy of 3000 to 9000 metres (2-6 miles)
+  - imprecise is smart enough not to cross country borders
