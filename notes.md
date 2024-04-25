@@ -104,3 +104,13 @@ Gamepad API
 - low latency
 - works with bluetooth and USB, API doesn't care
 - works with requestAnimationFrame
+
+Web HID
+
+- not available in safari
+- human interface device
+- can be connected via usb or bluetooth
+- provides users with control over which devices web apps can access
+- user must grant permission for it to be used
+- low-level API: you have a lot of power and a lot of work
+- connects to non-standard input/output devices. stream deck, pedals, LED lights etc
