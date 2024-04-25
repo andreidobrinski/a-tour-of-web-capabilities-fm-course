@@ -66,3 +66,34 @@ Geolocation API
   - there is no API to know in which mode the user is
   - imprecise: you get an accuracy of 3000 to 9000 metres (2-6 miles)
   - imprecise is smart enough not to cross country borders
+
+Screen Orientation API
+
+- knowing if you are in portrait or landscape
+- currently light green support
+- `screen.orientation.lock()` locks the screen orientation
+- arguments: any, natural, portrait-primary, portrait-secondary (upside down), landscape-primary, landscape-secondary, portrait, landscape
+
+Touch Events
+
+- mouse events are not good enough (click, hover, etc)
+- touch events have more than one pointer
+- mouse pointer never goes away whereas touch does
+- touch events have pressure and angle
+- API: touchstart, touchend, touchcancel (touch event gets interrupted), touchmove (drag)
+- touch events are patented by Apple
+
+Pointer Events
+
+- implemented as a counter to touch events and now also used by Apple
+- typically have both touch events and pointer on most phones
+- works with mouse, trackpad, pen, stylus etc
+- API: pointerdown, pointerup, pointercancel, pointerover pointerout (hover), pointermove pointerenter pointerleave (drag)
+- event receives coordinates, pointer id, pointer type, optional pressure, tilt, twist data (if available)
+
+Virtual Keyboard
+
+- waiting for Apple to implement this API
+- can't detect virtual keyboard, how much space it takes up etc
+- API: navigator.virtualKeyboard
+- has CSS env variables for styling around keyboard (margin, padding)
