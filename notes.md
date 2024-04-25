@@ -97,3 +97,10 @@ Virtual Keyboard
 - can't detect virtual keyboard, how much space it takes up etc
 - API: navigator.virtualKeyboard
 - has CSS env variables for styling around keyboard (margin, padding)
+
+Gamepad API
+
+- high level API, works with any gamepad
+- low latency
+- works with bluetooth and USB, API doesn't care
+- works with requestAnimationFrame
