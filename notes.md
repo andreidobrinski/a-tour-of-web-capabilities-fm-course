@@ -122,3 +122,8 @@ Speech Recognition API
 - you get transcribed text with a percentage of confidence
 - does multiple languages. language support depends on the browser and the OS
 - API is prefixed with webkit: `webkitSpeechRecognition()`
+
+Speech Synthesis API
+
+- API: new SpeechSynthesisUtterance()
+- each browser has a different list of voices they can use
