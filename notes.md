@@ -172,3 +172,10 @@ Web Audio API
 - can be used for ultrasound communication between devices
 - library: SonicSocket, used for ultrasound networking
 - chromecast uses ultrasound to know that it's near
+
+Web MIDI API
+
+- low level API
+- use to connect to music devices and some lightning systems
+- firefox implemented but not safari
+- receive and send MIDI messages
