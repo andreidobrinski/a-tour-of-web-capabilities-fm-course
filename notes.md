@@ -127,3 +127,24 @@ Speech Synthesis API
 
 - API: new SpeechSynthesisUtterance()
 - each browser has a different list of voices they can use
+
+Barcode Detector, Face Detector, Text Detector
+
+- chrome and android only
+- `const detector = new BarcodeDetector()`
+- not on iOS or desktop
+
+Media Devices
+
+- they have to do with the camera
+- gets a stream that is coming from the camera
+
+Advanced control camera
+
+- camera PTZ, pan tilt zoom
+- can be used to adjust input stream for live streaming or for taking photos
+- useful for mixing with UI controls
+
+Augmented Reality
+
+- webXR API, available in chromium browser but safari is experimental
