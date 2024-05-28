@@ -179,3 +179,18 @@ Web MIDI API
 - use to connect to music devices and some lightning systems
 - firefox implemented but not safari
 - receive and send MIDI messages
+
+Web Serial API
+
+- low level
+- communicate with serial devices with USB, blutooth or other serial connections
+- not a lot of use cases
+- send and receive data
+
+Web USB
+
+- targetted to device vendors, not developers
+- also low level API
+- read and write data directly without custom drivers
+- not often used
+- chromium only
