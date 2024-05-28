@@ -154,3 +154,13 @@ Screen Wake Lock API
 - available in chrome and safari
 - asks the OS not to lock the screen while the app is in the foreground
 - `navigator.wakeLock.request()`
+
+Web Bluetooth API
+
+- safari and firefox have not implemented it and likely won't
+- Brave also removed bluetooth from chromium
+- The API lets us: scan for BLE devices, scan services available (each device can expose services and those services expose IDs), connect to these services, send and receive data (through something known as a characteristic)
+- it is a low level API
+- cannot connect to bluetooth FTP or audio
+- need to manipulate binary data
+- need to understand the device's communication protocol
