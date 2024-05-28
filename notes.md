@@ -194,3 +194,21 @@ Web USB
 - read and write data directly without custom drivers
 - not often used
 - chromium only
+- requires permission to use
+
+Vibration
+
+- window.navigator.vibrate(300)
+- allows you to vibrate the phone
+
+Battery status
+
+- navigator.getBattery()
+- can get the current battery level and whether or not the device is charging, and how long it would take to be fully charged
+- not available in safari or firefox
+- can work with a PWA and must go through the app store
+
+Idle detection
+
+- know if the user is still there or not
+- used in chat applications
