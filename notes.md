@@ -148,3 +148,9 @@ Advanced control camera
 Augmented Reality
 
 - webXR API, available in chromium browser but safari is experimental
+
+Screen Wake Lock API
+
+- available in chrome and safari
+- asks the OS not to lock the screen while the app is in the foreground
+- `navigator.wakeLock.request()`
