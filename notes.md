@@ -164,3 +164,11 @@ Web Bluetooth API
 - cannot connect to bluetooth FTP or audio
 - need to manipulate binary data
 - need to understand the device's communication protocol
+
+Web Audio API
+
+- generate dynamic audio
+- 3d sound
+- can be used for ultrasound communication between devices
+- library: SonicSocket, used for ultrasound networking
+- chromecast uses ultrasound to know that it's near
