@@ -212,3 +212,12 @@ Idle detection
 
 - know if the user is still there or not
 - used in chat applications
+
+Web NFC
+
+- only works on chrome
+- tap to pay, share, etc
+- similar to what you can get with a QR code
+- access within 5-10cm
+- limited only to NDEF spec, simplest protocol we have for NFC
+- low level operations are not possible
