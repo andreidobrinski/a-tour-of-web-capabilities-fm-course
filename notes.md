@@ -257,3 +257,15 @@ Electron app vs PWA pros cons
 URL protocol handler
 
 - lets you subscribe to one of the protocols
+
+Web Share API
+
+- navigator.share({ title, text, files, url })
+- shares via the native share dialog
+
+Web Share Target
+
+- light green
+- allows you to receive from other websites
+- allows your PWA to be on the list of available apps to receive data
+- happens on the web app manifes file
