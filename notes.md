@@ -221,3 +221,39 @@ Web NFC
 - access within 5-10cm
 - limited only to NDEF spec, simplest protocol we have for NFC
 - low level operations are not possible
+
+## OS Integration
+
+- usually works with web PWAs
+  Why don't we see more PWAs?
+- it's a business decision. Maybe it's better for the business if a customer uses the native app instead of the PWA
+- Apple invented the PWA before they invented the App Store. Chrome cloned and improved it. Apple didn't promote PWAs a lot and were lagging on implementing APIs for PWAs
+- users don't always know that you can install an app from the browser
+
+Managing windows
+
+- window.moveTo, .rezizeTo, .open works for PWAs but not for browser versions
+
+Multi screen windows placement API
+
+- window.getScreenDetails()
+
+Windows controls overlay
+
+- display_override: window-controls-overlay
+- inside the manifest file
+
+File Handler
+
+- in the web app manifest, needs setup
+- launchQueue.setConsumer in the JS
+
+Electron app vs PWA pros cons
+
+- PWA is limited to only browser APIs. Electron has access to native features
+- Electron wont update chrome engines automatically, you need to recompile and the user needs to redownload
+- PWA allows for silent updates
+
+URL protocol handler
+
+- lets you subscribe to one of the protocols
