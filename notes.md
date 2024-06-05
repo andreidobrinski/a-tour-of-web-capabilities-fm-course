@@ -269,3 +269,15 @@ Web Share Target
 - allows you to receive from other websites
 - allows your PWA to be on the list of available apps to receive data
 - happens on the web app manifes file
+
+Contact Picker
+
+- mainly targetting mobile devices
+- experimental API on iOS, works on Android
+- allows the user to pick one or multiple contacts
+- app receives contacts based on user's selection
+
+Fullscreen API
+
+- document.fullscreenElement(), .requestFullscreen(), .exitFullscreen()
+- safari uses the webkit prefix
