@@ -289,3 +289,32 @@ Payment Request
 - Apple's API allows to pay with touchId, faceId
 - this code typically isn't used directly, it's used through an SDK offered by the payment processor
 - developer will never see the credit card details, for security
+
+Get Installed Related Apps
+
+- you can know if a native app is installed or not
+- uses packageID, typically com.myapp.pwa
+- needs to have a handshake between native app and web app.
+- uses the .well-known folder
+- from there, JS can detect if the app is installed or not
+
+Smart App Banner
+
+- meta tag for iOS and iPadOS to open the native app directly
+- supports deep linking
+
+App Badging
+
+- alerts the user to let them know there is new content in the app
+- works across browsers and devices
+- can change the badge after the user opts-in
+- Android includes only a dot and not a full number
+- navigator.setAppBadge(), .clearAppBadge()
+- setting to 0 will clear it
+
+App Shortcuts
+
+- menu items that will appear on the icon launcher's contextual menu
+- defined statically per app
+- opens the app with a navigation inside the app. Loads the PWA with a different URL
+- works via the manifest
