@@ -318,3 +318,17 @@ App Shortcuts
 - defined statically per app
 - opens the app with a navigation inside the app. Loads the PWA with a different URL
 - works via the manifest
+
+Experimental new APIs
+
+- eyedropper, to select a colour from the screen
+- compression streams, zip and unzip clientside
+- webGPU, talk directly to the GPU
+- view transitions API, transitions for navigation
+- compute pressure, tells the developer when the CPU goes under pressure
+- popover
+- digital goods API, for PWAs - charges user for subscriptions, in-app purchase
+- web transport protocal
+- picture in picture
+- presentation API, for external displays
+- screen recorder
