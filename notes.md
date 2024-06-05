@@ -281,3 +281,11 @@ Fullscreen API
 
 - document.fullscreenElement(), .requestFullscreen(), .exitFullscreen()
 - safari uses the webkit prefix
+
+Payment Request
+
+- browser is the intermediary between the user and and payment processor
+- Apple Pay JS is available for iOS
+- Apple's API allows to pay with touchId, faceId
+- this code typically isn't used directly, it's used through an SDK offered by the payment processor
+- developer will never see the credit card details, for security
